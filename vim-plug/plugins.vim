@@ -21,5 +21,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ariline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-
+    " Markdown-preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+    " Ale for C/C++ linting
+    Plug 'dense-analysis/ale'
 call plug#end()
+
