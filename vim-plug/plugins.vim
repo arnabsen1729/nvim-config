@@ -25,5 +25,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     " Ale for C/C++ linting
     Plug 'dense-analysis/ale'
+    " FZF 
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+    Plug 'liuchengxu/vim-which-key'
 call plug#end()
 

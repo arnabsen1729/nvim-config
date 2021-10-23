@@ -6,3 +6,5 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/clang-format.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/keys/which-key.vim
