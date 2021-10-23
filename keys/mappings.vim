@@ -20,7 +20,10 @@ nnoremap <c-u> viwU<Esc>
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
-
+" https://github.com/fatih/vim-go/wiki/Tutorial#vimrc-improvements
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit

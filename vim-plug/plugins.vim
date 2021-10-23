@@ -30,5 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
     Plug 'liuchengxu/vim-which-key'
+    " Golang
+    Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+    Plug 'SirVer/ultisnips'
 call plug#end()
 

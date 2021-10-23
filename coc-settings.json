@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python", "cpp", "go"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python", "cpp"],
 
   // python config
   "python.linting.enabled": true,
@@ -10,9 +10,6 @@
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-  "go.goplsOptions": {
-    "staticcheck": true
-  },
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
